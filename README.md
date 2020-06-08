@@ -1,2 +1,2 @@
 # frontend-hoteldesign1
-Implementation of the first design chosen by the team
+Implementation of the first hotel design chosen by the team
