@@ -3,13 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-  <!-- <link
-			href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
-			rel="stylesheet"
-		/>  -->
+  
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <link rel="stylesheet" href="css/booking.css">
+  <link rel="stylesheet" href="css/book.css">
   <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/footer.css">
   <title>SYN ROYALE</title>
 </head>
 <body>
@@ -50,33 +48,34 @@
       </section>
 
       <section class="container">
-        <div class="container _text">
+        <div class="container_text col">
           <p>Our rooms are spacious and the atmosphere can be adapted at will thanks to an interactive tablet
-           that controls the TV, the temperature and the lighting.The bathrooms in Carrara and Turquin blue
+           that controls the TV, the temperature and the lighting. </p>
+           <p>The bathrooms in Carrara and Turquin blue
             marble are equally spacious and mostly bathed in natural light. </p>
         </div> 
       </section>
       <section class="maiin">
         <article class="container rooms">
-          <div  class="sub-container" data-aos="flip-left">
+          <div  class="sub-container" >
             <div>
                <img src="img/Rectangle 43 1.png" alt="Standard Rooms" class="room">
             </div>
             <div class="container _room_text">standard rooms</div>
          </div>
-         <div class="sub-container" data-aos="flip-right">
+         <div class="sub-container" >
            <div>
               <img src="img/Rectangle 45.png" alt="Standard Rooms"   class="room">
            </div>
            <div class="container _room_text">clubs suite</div>
         </div>
-        <div class="sub-container" data-aos="flip-left">
+        <div class="sub-container">
          <div>
             <img src="img/Rectangle 47.png" alt="Standard Rooms"  class="room">
          </div>
          <div class="container _room_text">presidential suite</div>
       </div>
-      <div class="sub-container" data-aos="flip-right">
+      <div class="sub-container" >
          <div>
            <img src="img/Rectangle 49.png" alt="Standard Rooms" class="room">
          </div>
@@ -94,8 +93,8 @@
     </section>
    
 
-    <section class="container _rooms">
-       <div class="room_info"  data-aos="fade-right">
+    <!-- <section class="container _rooms">
+       <div class="room_info"  >
          <div class="info_details" >
            <img src="img/Rectangle 6.png"  alt="" class=""> 
            <div class=""  >
@@ -105,11 +104,13 @@
               for ultimate comfort and privacy. Our Suites also offer a free deep sleep pillow 
               spray and turndown service every evening, so you can enjoy a good night’s sleep.
               </div>
-              <p>
-                <span>Size: 25 m²  </span>
-                <span>Bed type: 1 King-size <br> bed </span>            
-              </p>
-              <p class="amt">NGN 145,000</p>
+              <div class="room_descriptions">
+                <p>
+                  <span>Size: 25 m²  </span>
+                  <span>Bed type: 1 King-size <br> bed </span>            
+                </p>
+                <p class="amt">NGN 158,000</p>
+               </div>
            </div>          
          </div>
          <div class="book"><a href="#"></a>Book</div>
@@ -117,7 +118,7 @@
     </section>
 
     <section class="container _rooms">
-      <div class="room_info"  data-aos="fade-left">
+      <div class="room_info" >
         <div class="info_details" >
           <img src="img/Rectangle 52.png"  alt="" class=""> 
           <div class=""  >
@@ -127,38 +128,103 @@
              for ultimate comfort and privacy. Our Suites also offer a free deep sleep pillow 
              spray and turndown service every evening, so you can enjoy a good night’s sleep.
              </div>
-             <p>
-               <span>Size: 25 m²  </span>
-               <span>Bed type: 1 King-size <br> bed </span>            
-             </p>
-             <p class="amt">NGN 160,000</p>
+             <div class="room_descriptions">
+              <p>
+                <span>Size: 25 m²  </span>
+                <span>Bed type: 1 King-size <br> bed </span>            
+              </p>
+              <p class="amt">NGN 158,000</p>
+             </div>
           </div>          
         </div>
         <div class="book"><a href="#"></a>Book</div>
       </div>     
-   </section>
-
+   </section> -->
+   
    <section class="container _rooms">
-    <div class="room_info"  data-aos="fade-right">
+    <div class="room_info" data-aos="fade-right" >
       <div class="info_details" >
-        <img src="img/Rectangle 54.png"  alt="" class=""> 
+        <div class="_rooms_pix">
+          <img src="img/Rectangle 54.png"  alt="" > 
+        </div>
         <div class=""  >
            <h5> Guest room - junior suite lounge access</h5>
-           <div>
+           <div class="room__info">
            These spacious surroundings include a living area separate from the bedroom 
            for ultimate comfort and privacy. Our Suites also offer a free deep sleep pillow 
            spray and turndown service every evening, so you can enjoy a good night’s sleep.
            </div>
-           <p>
-             <span>Size: 25 m²  </span>
-             <span>Bed type: 1 King-size <br> bed </span>            
-           </p>
-           <p class="amt">NGN 158,000</p>
+           <div class="room_descriptions">
+            <p>
+              <span>Size: 25 m²  </span>
+              <span>Bed type: 1 King-size <br> bed </span>            
+            </p>
+            <p class="amt">NGN 158,000</p>
+           </div>
+           
         </div>          
       </div>
       <div class="book"><a href="#"></a>Book</div>
     </div>   
   </section>
+
+  <section class="container _rooms">
+    <div class="room_info" data-aos="fade-left" >
+      <div class="info_details" >
+        <div class="_rooms_pix">
+          <img src="img/Rectangle 54.png"  alt="" > 
+        </div>
+        <div class=""  >
+           <h5> Guest room - junior suite lounge access</h5>
+           <div class="room__info">
+           These spacious surroundings include a living area separate from the bedroom 
+           for ultimate comfort and privacy. Our Suites also offer a free deep sleep pillow 
+           spray and turndown service every evening, so you can enjoy a good night’s sleep.
+           </div>
+           <div class="room_descriptions">
+            <p>
+              <span>Size: 25 m²  </span>
+              <span>Bed type: 1 King-size <br> bed </span>            
+            </p>
+            <p class="amt">NGN 158,000</p>
+           </div>
+           
+        </div>          
+      </div>
+      <div class="book"><a href="#"></a>Book</div>
+    </div>   
+  </section>
+
+
+  <section class="container _rooms">
+    <div class="room_info" data-aos="fade-right">
+      <div class="info_details" >
+        <div class="_rooms_pix">
+          <img src="img/Rectangle 54.png"  alt="" > 
+        </div>
+        <div class=""  >
+           <h5> Guest room - junior suite lounge access</h5>
+           <div class="room__info">
+           These spacious surroundings include a living area separate from the bedroom 
+           for ultimate comfort and privacy. Our Suites also offer a free deep sleep pillow 
+           spray and turndown service every evening, so you can enjoy a good night’s sleep.
+           </div>
+           <div class="room_descriptions">
+            <p>
+              <span>Size: 25 m²  </span>
+              <span>Bed type: 1 King-size <br> bed </span>            
+            </p>
+            <p class="amt">NGN 158,000</p>
+           </div>
+           
+        </div>          
+      </div>
+      <div class="book"><a href="#"></a>Book</div>
+    </div>   
+  </section>
+
+
+  
   <div class="more_page">
       <div> <a href="#"> load more </a></div>
   </div>
