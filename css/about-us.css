@@ -17,11 +17,16 @@ body{
     font-family: Raleway;
     color: #fff;
     font-weight: bold;
-    font-size: 48px;
+    font-size: 2em;
     line-height: 56px;
     /* margin: 50px 0; */
 }
-
+p{
+    color: #898585;
+}
+section hr {
+    border-top: 1px solid rgb(156, 155, 154);
+}
 @media only screen and (max-width: 599px){
     .banner {
         height: 411px;
@@ -31,7 +36,7 @@ body{
         padding-top: 180px;
     }
     .section-header {
-        font-size: 42px;
+        font-size: 2em;
         font-weight: bold;
         color: #EE5940;
         margin: 30px auto;
@@ -50,9 +55,11 @@ body{
         font-weight: bold;
         color: #EE5940;
         margin: 40px auto;
+        margin-bottom: 20px;
+
     }
     section hr {
-        border-top: 1px solid #EE5940;
+        border-top: 1px solid rgb(156, 155, 154);
     }
 }
 
@@ -95,6 +102,9 @@ body{
         height: 411px;
         margin-top: 10px;
     }
+    .banner-header{
+        font-size: 42px;
+    }
     h2 {
         padding-top: 180px;
     }
@@ -111,10 +121,10 @@ body{
         font-weight: bold;
         color: #EE5940;
         margin-top: 30px;
-        margin-bottom: 40px;
+        margin-bottom: 20px;
     }
     section hr {
-        border-top: 1px solid #EE5940;
+        border-top: 1px solid rgb(156, 155, 154);
     }
     #right-img {
         padding: 10px 0 0 10px;
