@@ -46,7 +46,7 @@ nav a:hover{
 }
 .toggle-button{
     position: absolute;
-    top: 2.1em;
+    top: 1.5rem;
     right: .5em;
     display: none;
     flex-direction: column;

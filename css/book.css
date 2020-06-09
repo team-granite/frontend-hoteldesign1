@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Muli:wght@200;300;400;700&display=swap');
+
+* {
+	font-family: 'Muli', sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html {
+	scroll-behavior: smooth;
+}
+.container-banner {
+	position: relative;
+	width: 100%;
+	height: 26rem;
+}
+h2 {
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 48px;
+	line-height: 56px;
+	color: #ffffff;
+}
+.bg-overlay {
+	position: absolute;
+	background-image: url('/bg-image/Rectangle\ 65.svg');
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	object-fit: cover;
+	background-position: 100% 100%;
+}
+.container-banner {
+	margin-top: 55px;
+}
+.center {
+	position: absolute;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	font-size: 1rem;
+	font-weight: 600;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url('../img/Rectangle\ 65.svg');
+	height: 100%;
+	width: 100%;
+	color: white;
+	font-size: 2rem;
+	margin-top: 18px;
+}
+
+.container_text {
+	text-align: center;
+	line-height: 1.5;
+	margin-top: 3rem;
+}
+.container_text > p {
+	margin-top: 0.5rem;
+}
+.container.rooms {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 2rem;
+}
+.sub-container {
+	margin: 5px;
+}
+.container._room_text {
+	width: 100%;
+	background-color: black;
+	color: white;
+	margin-top: 0;
+	text-align: center;
+}
+.contact_info {
+	font-size: 0.7rem;
+	text-align: center;
+	/* padding: 1rem 0.8rem; */
+	border-right: 1px solid grey;
+	margin-top: 2rem;
+	font-size: 1rem;
+}
+.contact_info_number {
+	border-top: 1px solid grey;
+	border-bottom: 1px solid gray;
+}
+._rooms {
+	margin-top: 2rem;
+}
+._rooms_pix {
+	display: block;
+	text-align: center;
+}
+span {
+	display: block;
+}
+.book {
+	margin: auto;
+	text-align: center;
+	background-color: black;
+	color: #ee5940;
+	padding: 8px 20px;
+	border-radius: 5px;
+	width: 5rem;
+}
+.info_details img {
+	padding: 10px;
+}
+h5 {
+	font-size: 1.2rem;
+	text-transform: capitalize;
+	text-align: center;
+}
+.more_page {
+	margin-top: 3rem;
+}
+.more_page div {
+	margin: auto;
+	text-align: center;
+	padding: 8px 15px;
+	background-color: black;
+	width: 8rem;
+	border-radius: 10px;
+}
+.more_page div a {
+	text-decoration: none;
+	color: #ee5940;
+	/* margin: auto; */
+}
+.room__info {
+	text-align: center;
+	margin-top: 1rem;
+}
+.room_descriptions {
+	text-align: center;
+	margin: 1rem;
+}
+
+@media (min-width: 1100px) {
+  .contact_info {
+    position: absolute;
+    top: 0px;
+    left: 5px;
+    font-size: 0.7rem;
+    text-align: center;
+    padding: 1rem 0.8rem;
+    border-right: 1px solid grey;
+  }
+  .contact_info_number {
+    border-top: 1px solid grey;
+    border-bottom: 1px solid gray;
+  }
+  .contact_info div {
+    margin-top: 1rem;
+  }
+
+}
+
+@media (min-width: 800px) {
+	.maiin {
+    position: relative;
+  }
+    .room__info {
+    text-align: unset;
+    margin-top: 0;
+  }
+  .info_details img {
+    padding: 10px;
+  }
+  .room_descriptions {
+    text-align: unset;
+    margin: 0;
+  }
+  .container_text {
+    width: 50rem;
+    margin: auto;
+  }
+  .col {
+    margin-top: 4rem;
+  }
+  
+  /* start big screen */
+  
+    .room_info {
+    border: 1px solid gray;
+    width: 550px;
+    margin: auto;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+  }
+  .info_details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 0.8rem; */
+    border-radius: 5px;
+  }
+  .info_details > div {
+    max-width: 100%;
+    font-size: 0.6rem;
+  }
+  .info_details > img {
+    display: block;
+    /* margin-right: 1.5rem; */
+    width: 130px;
+  }
+  h5,
+  .amt {
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-align: unset;
+  }
+  span {
+    display: block;
+  }
+  .book {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: #ee5940;
+    padding: 5px 20px;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    cursor: pointer;
+    width: 5rem;
+  }
+
+  
+}
