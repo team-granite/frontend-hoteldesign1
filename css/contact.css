@@ -1,0 +1,63 @@
+/**Form Styling Starts*/
+.container {
+  position: relative;
+  width: 1440px;
+  background: #ffffff;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.contact-container {
+  padding: 50px 100px;
+}
+
+.contact-page .contact-us p {
+  font-family: "Muli", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+
+  color: #898585;
+}
+
+.contact-us {
+  padding-bottom: 40px;
+  box-sizing: border-box;
+}
+.contact-us h5 {
+  width: 127px;
+  height: 28px;
+  left: 300px;
+  top: 237px;
+
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #ee5940;
+}
+
+.contact-us p i {
+  padding-right: 15px;
+}
+
+.message h5 {
+  height: 30px;
+  left: 300px;
+  top: 582px;
+
+  font-family: "Muli", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  display: block;
+
+  color: #ee5940;
+}
+
+.message input[type="button"] {
+  color: #ee5940;
+}
