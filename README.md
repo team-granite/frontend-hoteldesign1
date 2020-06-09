@@ -46,5 +46,6 @@ For a chore: git commit -m "chore: updated readme"
 Team leads, set the develop branch as the default branch.
 
 To prevent merge conflict always pull from develop branch before making a PR.
+# When creating a new PR please add screenshots of your implemented work showing its responsiveness to the description of the PR.
 
 THANKS
