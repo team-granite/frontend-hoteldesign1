@@ -1,0 +1,93 @@
+body{
+    font-family: Muli;
+    box-sizing: border-box;
+}
+.containerr{
+    text-align: center;
+}
+hr{
+    margin-top: -25px;
+}
+.logo{
+    font-size: 48px;
+}
+h1{
+    font-size: 18px;
+    margin-top: -20px;
+    font-weight: 100;
+    color: black;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+nav li {
+    display: inline-block;
+}
+nav a {
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    padding: .1rem .9rem;
+    margin-right: 2em;
+    margin-top: 10px;
+    color:  #898585;
+    line-height: 23px;
+}
+a.active{
+    color: #EE5940;
+}
+nav a:hover{
+    border: 1px solid #EE5940;
+    color:  #898585;
+    text-decoration: none;
+}
+.toggle-button{
+    position: absolute;
+    top: 2.1em;
+    right: .5em;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+    width: 30px;
+    height: 21px;
+}
+.toggle-button .bar{
+    height: 3px;
+    width: 100%;
+    background-color: #EE5940;
+    border-radius: 10px;
+}
+
+@media (max-width: 900px){
+    
+    .toggle-button{
+        display: flex;
+    }
+    nav a{
+        /* display: none; */
+        width: 100%;
+    }
+    nav a{
+        flex-direction: column;
+        text-align: center;
+        align-items: flex-start;
+        padding: .1rem .1rem;
+    }
+   
+    nav a.active{
+        color: #EE5940;
+    }
+    nav ul{
+        width: 100%;
+        display: none;
+        flex-direction: column;
+    }
+    nav li a{
+        text-align: center;
+        width: 30%;
+    }
+}
