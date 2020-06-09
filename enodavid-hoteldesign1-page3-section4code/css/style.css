@@ -1,0 +1,75 @@
+	/* Section 4 -- Gallery CSS*/
+*,
+*::before
+*::after {
+	box-sizing: border-box;
+}
+
+
+
+
+body {
+	
+	background-color: #E5E5E5;
+	margin: 0;
+
+}
+
+
+.gallery--title {
+
+	font-family: Muli;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 45px;
+	text-align: center;
+
+color: #EE5940;
+
+}
+
+/* Slider */
+
+.flex-container {
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: center;
+		align-items: center;
+		
+}
+
+.flex-container > div {
+	margin: 10px;
+}
+
+.button1 {
+  
+  	height: 40px;
+ 	width: 40px;
+ 	background-color: #000000;
+	border-radius: 50%;
+  
+}
+
+.button2 {
+	height: 40px;
+  	width: 40px;
+  	background-color: #000000;
+  	border-radius: 50%;
+  	
+}
+
+
+.greater-than {
+	font-size: 30;
+	color: #EE5940;
+	
+}
+
+
+.less-than {
+	font-size: 30;
+	color: #EE5940;
+}
+
