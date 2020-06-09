@@ -1,0 +1,34 @@
+section{
+    
+    
+    margin-top: 150px;
+    
+}
+
+.welcome{
+    position: absolute;
+    top: 65%;
+    left: 33%;
+}
+.welcome h1{
+color: white;
+font-size: 'Lato' 'San Serif';
+font-size: 64px;
+}
+
+.hos{
+    position: absolute;
+    top: 77%;
+    left: 59%;
+}
+.hos p{
+    color: white;
+    font-size: 'Lato' 'San Serif';
+    font-size: 34px;
+    }
+
+#waitress{
+ background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+ z-index: -1;
+}
+    
