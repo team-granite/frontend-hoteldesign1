@@ -8,25 +8,10 @@
   margin-bottom: 0;
   padding-bottom: 0;
 }
-@media only screen and (max-width: 650px) {
-  .container {
-    padding: 20px;
-    max-width: 650px;
-  }
-}
 
 .contact-container {
   padding: 50px 100px;
 }
-
-@media screen and (max-width: 650px) {
-  .contact-container {
-    padding: 0px;
-    margin: 0px;
-    padding-top: 10px;
-  }
-}
-
 .contact-page .contact-us .text {
   font-family: "Muli", sans-serif;
   font-style: normal;
@@ -69,4 +54,10 @@
 
 .message input[type="button"] {
   color: #ee5940;
+}
+@media only screen and (max-width: 500px){
+.contact-container{
+  padding-left: 0;
+  padding-right: 0;
+}
 }
