@@ -4,16 +4,14 @@
   background: #ffffff;
   margin-right: auto;
   margin-left: auto;
+  justify-content: center;
   margin-bottom: 0;
   padding-bottom: 0;
 }
-@media screen and (max-width: 360) {
+@media only screen and (max-width: 650px) {
   .container {
-    padding-right: 0px;
-    padding-left: 0px;
-    margin-right: 5px;
-    margin-left: 5px;
-    max-width: 360px;
+    padding: 20px;
+    max-width: 650px;
   }
 }
 
@@ -21,14 +19,15 @@
   padding: 50px 100px;
 }
 
-@media screen and (max-width: 360) {
+@media screen and (max-width: 650px) {
   .contact-container {
     padding: 0px;
     margin: 0px;
+    padding-top: 10px;
   }
 }
 
-.contact-page .contact-us p {
+.contact-page .contact-us .text {
   font-family: "Muli", sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -48,6 +47,7 @@
   font-weight: bold;
   font-size: 24px;
   line-height: 28px;
+  display: block;
 
   color: #ee5940;
 }
