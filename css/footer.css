@@ -5,7 +5,7 @@ footer {
 #footer-sm {
   display: flex;
   padding: 16px;
-  margin-top: 3rem;
+  /*margin-top: 3rem;*/
   font-size: 12px;
 }
 #footer-sm-link {
