@@ -11,7 +11,7 @@ footer {
 #footer-sm-link {
   margin-left: auto;  
   margin-right: 2rem;
-  margin-top: .5em;
+  margin-top: 1.4em;
   padding: 5px;
   font-size: 1.3em;
 } 
@@ -33,11 +33,12 @@ footer {
   margin-top: 1em;
   margin-left: 0;
   color: #EE5940;
-  font-size: 1.1em;
+  font-size: 1em;
 }
 .fas{
-  font-size: 1.3em;
+  font-size: 1.1em;
   border: 1px solid #EE5940;
+margin-top: 15px;
 }
 #button {
   cursor: pointer;
@@ -56,10 +57,10 @@ footer {
   #copyright {
     margin-left: 2rem;
     color: #EE5940;
-    font-size: 1em;
+    font-size: 1.2em;
   }
   .angle-up {
-    margin-top: 2em;
+    margin-top: .7em;
     margin-right: 3rem;
   }
  
