@@ -10,6 +10,12 @@ hr{
 }
 .logo{
     font-size: 48px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    position: relative;
 }
 h1{
     font-size: 18px;
@@ -21,7 +27,6 @@ nav ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
-    text-align: center;
 }
 nav li {
     display: inline-block;
@@ -37,7 +42,7 @@ nav a {
     line-height: 23px;
 }
 a.active{
-    color: #EE5940;
+    color: #EE5940 !important;
 }
 nav a:hover{
     border: 1px solid #EE5940;
@@ -63,31 +68,7 @@ nav a:hover{
 }
 
 @media (max-width: 900px){
-    
-    .toggle-button{
-        display: flex;
-    }
-    nav a{
-        /* display: none; */
-        width: 100%;
-    }
-    nav a{
-        flex-direction: column;
-        text-align: center;
-        align-items: flex-start;
-        padding: .1rem .1rem;
-    }
-   
-    nav a.active{
-        color: #EE5940;
-    }
-    nav ul{
-        width: 100%;
-        display: none;
-        flex-direction: column;
-    }
     nav li a{
-        text-align: center;
-        width: 30%;
-    }
+    width: 110px !important;
+}
 }

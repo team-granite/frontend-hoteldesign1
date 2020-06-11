@@ -23,6 +23,13 @@
 .active .nav-link{
     color: orangered !important;
 }
+.navbar-nav .active{
+    color: orangered !important;
+}
+.navbar-nav a:hover{
+    border: 1px solid #EE5940;
+    color:  #898585;
+}
 /*-------slider----*/
 #slider{
     width: 100%;
@@ -78,12 +85,21 @@
 #booking{
     background-color: #800000;
 }
+.shadow .mb-2{
+font-size: 28px;
+line-height: 80%;
+margin-left: 55px;
+color: #fff;
+}
+.shadoww .mb-2{
+    font-size: 28px;
+    color: #fff;
+    line-height: 80%;
+}
 #booking h2, p{
     text-align: center;
     color: #fff;
-/* font-size: 2em; */
 }
-
 img .card-title{
     width: 100%;
 }
@@ -166,14 +182,26 @@ body {
 	color: #EE5940;
 }
 @media (max-width: 786px){
-   
-}
-
-@media (max-width: 786px){
     .container h3{
         text-align: center;
         font-size: 19px;
     } 
+/* .navbar-light .navbar-toggler-icon {
+    background-color: #EE5940;
+    margin-top: -110px;
+
+}
+.navbar-light .navbar-toggler {
+border-color: #fff;    
+border-style: none;
+} */
+    .image1{
+        width: 45%;
+    }
+    .image2{
+        margin-top: -15px;
+        width: 25%;
+    }
     .text{
         text-align: center;
     }
@@ -181,7 +209,7 @@ body {
         color: #fff;
         font-size: 30px;
     }
-    .suite{
+    .suite {
         border: 1px;
         border-radius: 50%;
         width: 100%;
@@ -194,6 +222,9 @@ body {
         width: 20px;
         margin: 7px auto 5px;
     }   
+    .shadow .mb-2{
+margin-left: 75px;
+    }
     .gallery-sm .container{
         display: block;
         margin: 0 auto;
@@ -204,7 +235,12 @@ body {
         /* display: block; */
         width: 50%;
         text-align: center;
-        margin: 0 auto;
+        margin-left: 85px;
+        /* margin: 0 auto; */
+    }
+    .text-orangered {
+        color: orangered;
+        font-size: .9em;
     }
 }
 
