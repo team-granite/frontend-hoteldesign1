@@ -1,0 +1,74 @@
+body{
+    font-family: Muli;
+    box-sizing: border-box;
+}
+.containerr{
+    text-align: center;
+}
+hr{
+    margin-top: -25px;
+}
+.logo{
+    font-size: 48px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    position: relative;
+}
+h1{
+    font-size: 18px;
+    margin-top: -20px;
+    font-weight: 100;
+    color: black;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+nav li {
+    display: inline-block;
+}
+nav a {
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    padding: .1rem .9rem;
+    margin-right: 2em;
+    margin-top: 10px;
+    color:  #898585;
+    line-height: 23px;
+}
+a.active{
+    color: #EE5940 !important;
+}
+nav a:hover{
+    border: 1px solid #EE5940;
+    color:  #898585;
+    text-decoration: none;
+}
+.toggle-button{
+    position: absolute;
+    top: 1.5rem;
+    right: .5em;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+    width: 30px;
+    height: 21px;
+}
+.toggle-button .bar{
+    height: 3px;
+    width: 100%;
+    background-color: #EE5940;
+    border-radius: 10px;
+}
+
+@media (max-width: 900px){
+    nav li a{
+    width: 110px !important;
+}
+}
