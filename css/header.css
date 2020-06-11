@@ -2,73 +2,92 @@ body{
     font-family: Muli;
     box-sizing: border-box;
 }
-/* .containerr{
-    text-align: center;
-} */
-
-
-.header_container {
-    position: relative;
+.containerr{
     text-align: center;
 }
-.bar {
-    width: 2.5rem;
-    height: .3rem;
-    background-color:#EE5940; 
-    margin-top: .3rem;
-    border-radius: 10px;
-    
+hr{
+    margin-top: -25px;
 }
-h1 {
-    color: #898585;
-    font-size: 1rem;
+.logo{
+    font-size: 48px;
 }
-.toggle_button {
-    position: absolute;
-    right: 10px;
-    top: 30px;
+h1{
+    font-size: 18px;
+    margin-top: -20px;
+    font-weight: 100;
+    color: black;
 }
-ul {
-    list-style-type: none;    
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
 }
-
-li {
-    margin: .5rem;
-    padding: 5px;    
+nav li {
+    display: inline-block;
 }
-a {
+nav a {
     text-decoration: none;
-    color: white;
-}
-.nav-links {
-    text-align: left;
-    background-color: #EE5940; 
-    display: none;   
-}
-a:hover {
-    text-decoration: underline;
-}
-
-.nav-links.toggle_active {
+    font-size: 18px;
     display: block;
+    padding: .1rem .9rem;
+    margin-right: 2em;
+    margin-top: 10px;
+    color:  #898585;
+    line-height: 23px;
+}
+a.active{
+    color: #EE5940;
+}
+nav a:hover{
+    border: 1px solid #EE5940;
+    color:  #898585;
+    text-decoration: none;
+}
+.toggle-button{
+    position: absolute;
+    top: 1.5rem;
+    right: .5em;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+    width: 30px;
+    height: 21px;
+}
+.toggle-button .bar{
+    height: 3px;
+    width: 100%;
+    background-color: #EE5940;
+    border-radius: 10px;
 }
 
-@media (min-width: 900px) {
-
-    li {
-        display: inline-block;
+@media (max-width: 900px){
+    
+    .toggle-button{
+        display: flex;
     }
-    .nav-links {
-        text-align: center;   
-        background-color: white; 
-        display: block;
-           
-    }    
-    .toggle_button {
+    nav a{
+        /* display: none; */
+        width: 100%;
+    }
+    nav a{
+        flex-direction: column;
+        text-align: center;
+        align-items: flex-start;
+        padding: .1rem .1rem;
+    }
+   
+    nav a.active{
+        color: #EE5940;
+    }
+    nav ul{
+        width: 100%;
         display: none;
+        flex-direction: column;
     }
-    a {
-        text-decoration: none;
-        color:black;
+    nav li a{
+        text-align: center;
+        width: 30%;
     }
 }
