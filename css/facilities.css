@@ -30,13 +30,112 @@ section hr {
 }
 
 @media only screen and (max-width: 599px){
-    
-   
-}
-
-@media only screen and (min-width: 600px){
-    
-  
+    .banner {
+        height: 411px;
+        margin-top: 10px;
+    }
+    .banner-header{
+        font-size: 42px;
+    }
+    .section-header {
+        font-size: 22px;
+        font-weight: bold;
+        color: #EE5940;
+        padding: 0;
+    }
+    .sub-section-header {
+        font-size: 16px;
+        font-weight: bold;
+        color: #464646;
+        padding: 0;
+    }
+    #top-block, #bottom-block {
+        margin: 30px 0;
+    }
+    #spa, #gym {
+        padding: 20px;
+    }
+    #spa hr, #gym hr {
+        border-top: 1px solid #D3D3D3;
+        margin: 5px 20px;
+    }
+    #spa, #gym {
+        border-right: 1px solid #D3D3D3;
+    }
+    #top-block .sub-section-header, #middle-block .sub-section-header, #top-block ul, #middle-block ul{
+        text-align: center;
+        /*padding-right: 40px;*/
+    }
+    #top-block ul li, #middle-block ul li {
+        padding: 5px;
+    }
+    #book {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    #book hr {
+        border-top: 1px solid #D3D3D3;
+        margin: 5px 0;
+    }
+    #book h3, #book h4 {
+        text-align: center;
+        padding: 5px 0;
+    }
+    #overlay {
+        width: 35%;
+        height: 98%;
+        position: absolute;
+        top: 0;
+        left: 100px;
+        mix-blend-mode: hard-light;
+        opacity: 0.9;
+        background: #C60000;
+        z-index: 10;
+        padding: 5px;
+    }
+    #overlay p {
+        text-align: center;
+        color: #FFFFFF;
+    }
+    #overlay .first { 
+        margin-top: 10px; 
+        margin-bottom: 20px;
+        font-size: 14px;
+        font-weight: bold;
+    }
+    #overlay .second { 
+        font-size: 12px;
+        font-weight: lighter;
+    }
+    #bottom-block > h2 {
+        margin-bottom: 20px; 
+        text-align: center;
+    }
+    #other-facilities {
+        background-color: #DCDCDC;
+        border-radius: 8px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 100px;
+        padding-right: 20px;
+    }
+    #other-facilities li {
+        font-size: 14px;
+        padding: 5px 0;
+        text-align: left;
+    }
+    #other-facilities .sub-section-header {
+        text-align: left;
+    }
+    #left-column, #middle-column, #right-column {
+        border-left: 1px solid #D3D3D3;
+    }
+    .fa-skiing-nordic, .fa-wifi, .fa-address-card, .fa-clock, .fa-restroom {
+        color: #EE5940;
+    }
+    .fa {
+        display: none;
+    }
 }
 
 @media only screen and (min-width: 1024px){
@@ -91,8 +190,56 @@ section hr {
     #book .sub-section-header {
         padding-right: 0;
     }
+    #overlay {
+        width: 35%;
+        height: 94%;
+        position: absolute;
+        top: 0;
+        left: 130px;
+        mix-blend-mode: hard-light;
+        opacity: 0.9;
+        background: #C60000;
+        z-index: 10;
+        padding: 15px;
+    }
+    #overlay p {
+        text-align: center;
+        color: #FFFFFF;
+    }
+    #overlay > p { 
+        margin-top: 15px; 
+        margin-bottom: 30px;
+    }
+    #overlay .first { 
+        margin-top: 15px; 
+        margin-bottom: 30px;
+        font-weight: bold;
+    }
+    #bottom-block > h2 {
+        margin-bottom: 40px; 
+        text-align: center;
+    }
     #other-facilities {
-        background-color: #C8C8C8;
+        background-color: #DCDCDC;
         border-radius: 8px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    #other-facilities li {
+        font-size: 14px;
+    }
+    #left-column, #middle-column, #right-column {
+        border-left: 1px solid #D3D3D3;
+    }
+    #right-column {
+        margin-top: 150px;
+        margin-bottom: 100px;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .fa-skiing-nordic, .fa-wifi, .fa-address-card, .fa-clock, .fa-restroom {
+        color: #EE5940;
     }
 }
