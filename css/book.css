@@ -42,6 +42,9 @@ h2 {
 	font-size: 1rem;
 	font-weight: 600;
 	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('../img/Rectangle\ 65.svg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
 	height: 100%;
 	width: 100%;
 	color: white;
@@ -51,7 +54,7 @@ h2 {
 .container_text {
 	text-align: center;
 	line-height: 1.5;
-	margin-top: 3rem;
+	margin-bottom: 3rem;
 }
 .container_text > p {
 	margin-top: .5rem;
@@ -84,6 +87,10 @@ h2 {
 .contact_info_number {
 	border-top: 1px solid grey;
 	border-bottom: 1px solid gray;
+}
+.maiin img{
+	border: 1px solid blue;
+	width: 100%;
 }
 ._rooms {
 	margin-top: 2rem;
