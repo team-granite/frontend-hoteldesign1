@@ -1,17 +1,27 @@
 /* logo */
-*,
-*::before
-*::after {
-	box-sizing: border-box;
+.logo{
+    align-items: center;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    position: relative;
 }
-body {
-	/* background-color: #E5E5E5; */
-	margin: 0;
+.image1{
+    position: relative;
+    top: 0;
 }
-
-header {
-    width: 100%  !important;
-    height: 100%;
+.image2{
+    position: absolute;
+    top: 60px;
+}
+.navbar-nav li{
+    padding: 0 10px;
+}
+.nav-link{
+    margin: 20px; 
+}
+.active .nav-link{
+    color: orangered !important;
 }
 /*-------slider----*/
 #slider{
@@ -20,7 +30,7 @@ header {
 .carousel-caption{
     top: 50%;
     transform: translateY(-50%);
-    /* bottom: initial !important; */
+    bottom: initial !important;
 }
 .text{
     text-align: center;
@@ -91,6 +101,22 @@ img .card-title{
 .border-none {
     border: 1px solid transparent;
 }
+*,
+*::before
+*::after {
+	box-sizing: border-box;
+}
+
+
+
+
+body {
+
+	background-color: #E5E5E5;
+	margin: 0;
+
+}
+
 
 .gallery--title {
 
@@ -182,69 +208,3 @@ img .card-title{
     }
 }
 
-
-.header_container {
-    position: relative;
-    text-align: center;
-}
-.bar {
-    width: 2.5rem;
-    height: .3rem;
-    background-color:#EE5940; 
-    margin-top: .3rem;
-    border-radius: 10px;
-    
-}
-h1 {
-    color: #898585;
-    font-size: 1rem;
-}
-.toggle__button {
-    position: absolute;
-    right: 10px;
-    top: 30px;
-}
-ul {
-    list-style-type: none;    
-}
-
-li {
-    margin: .5rem;
-    padding: 5px;    
-}
-a {
-    text-decoration: none;
-    color: white;
-}
-.nav-linkss {
-    text-align: left;
-    background-color: #EE5940; 
-    display: block;   
-}
-a:hover {
-    text-decoration: underline;
-}
-
-.nav-linkss.toggle__active {
-    display: block;
-}
-
-@media (min-width: 900px) {
-
-    li {
-        display: inline-block;
-    }
-    .nav-linkss {
-        text-align: center;   
-        background-color: white; 
-        display: block;
-           
-    }    
-    .toggle_button {
-        display: none;
-    }
-    a {
-        text-decoration: none;
-        color:black;
-    }
-}
