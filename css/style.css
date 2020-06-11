@@ -88,14 +88,14 @@
 .shadow .mb-2{
 font-size: 28px;
 line-height: 80%;
-margin-left: 75px;
+margin-left: 80px;
 color: #fff;
 }
 .shadoww .mb-2{
     font-size: 28px;
     color: #fff;
     line-height: 80%;
-    margin-left: 55px;
+    margin-left: 60px;
 
 }
 #booking h2, p{
@@ -225,10 +225,10 @@ border-style: none;
         margin: 7px auto 5px;
     }   
     .shadow .mb-2{
-margin-left: 75px;
+margin-left: 110px;
     }
     .shadoww .mb-2{
-margin-left: 85px;
+margin-left: 110px;
     }
     .gallery-sm .container{
         display: block;
