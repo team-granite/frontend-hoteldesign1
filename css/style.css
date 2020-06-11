@@ -209,7 +209,8 @@ border-style: none;
     }
     .carousel-caption h3{
         color: #fff;
-        font-size: 30px;
+        font-size: 25px;
+        margin-left: 35px;
     }
     .suite {
         border: 1px;
