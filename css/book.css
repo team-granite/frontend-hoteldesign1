@@ -6,6 +6,9 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+body{
+	overflow-x: hidden;
+}
 html {
 	scroll-behavior: smooth;
 }
@@ -29,7 +32,7 @@ h2 {
 	height: 100%;
 	background-size: cover;
 	object-fit: cover;
-	background-position: 100% 100%;
+	background-position: center;
 }
 .container-banner {
 	margin-top: 55px;
@@ -54,10 +57,11 @@ h2 {
 .container_text {
 	text-align: center;
 	line-height: 1.5;
-	margin-bottom: 3rem;
+	/* margin-bottom: 3rem; */
 }
 .container_text > p {
 	margin-top: .5rem;
+	font-size: .9em;
 }
 .container.rooms {
 	display: flex;
@@ -112,9 +116,10 @@ span {
 	padding: 10px;
 }
 h5 {
-	font-size: 1.2rem;
+	font-size: 1.1rem;
 	text-transform: capitalize;
 	text-align: center;
+	padding: 0 10px;
 }
 .more_page {
 	margin-top: 3rem;
@@ -136,12 +141,25 @@ h5 {
 .room__info {
 	text-align: center;
 	margin-top: 1rem;
+	font-size: .9em;
+    padding: 0 10px;
 }
 .room_descriptions {
 	text-align: center;
 	margin: 1rem;
 }
-
+#copyright{
+	font-size: .9em!important;
+}
+#footer-sm-link{
+	margin-top: 5px!important;
+}
+#footer-sm-link a{
+	font-size: .9em!important;
+}
+.angle-up{
+	margin-top: 1px!important;
+}
 @media (min-width: 1100px) {
   .contact_info {
     position: absolute;

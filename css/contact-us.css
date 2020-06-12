@@ -60,4 +60,16 @@
   padding-left: 0;
   padding-right: 0;
 }
+#copyright{
+	font-size: .9em!important;
+}
+#footer-sm-link{
+	margin-top: 15px!important;
+}
+#footer-sm-link a{
+	font-size: .9em!important;
+}
+.angle-up{
+	margin-top: 10px!important;
+}
 }
